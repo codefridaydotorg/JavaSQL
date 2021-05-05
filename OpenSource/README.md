@@ -11,3 +11,91 @@ Many of us are actualy using many opensource projects without realizing, the onl
 Git is by far the best source control management systems. It has additional save points allowing us to save our work before we go on, it also has the feature of branching so that we can mantain a copy of our work to prototype it. It is very efficient, very fast. It is distributed.
 
 GitHub: It is built upon Git, providing us many powerful features by letting us use the platform via a Web Interface. We can use resources like issue tracking, project boards like Trello, integrations like GitHub actions.
+
+
+## Basic Markdown format
+
+Headings
+
+```
+#=Heading 1
+##=Heading 2
+###=Heading 3
+####=Heading 4
+#####=Heading 5
+######=Heading 6
+```
+
+Texts
+
+```
+Normal Text
+** Bold Text **
+* Italic *
+~~ Strike Through ~~
+```
+
+List
+
+```
+-list1
+-list2
+    -sublist1
+
+-[] Incomplete
+-[x] Complete
+```
+
+Links
+
+```
+[Text](link)
+```
+
+Image
+
+```
+![alt-text](path to image)
+```
+
+Table
+
+```
+|column 1|column 2|column 3|
+|:---|:---:|---:|
+|Left-Align|Center-Align|Right-Align|
+|Entry 1|Entry 2|Entry 3|
+```
+
+Back Ticks
+
+```
+\`<Text>\`:For Hightlights
+
+\`\`\`<Text>\`\`\`:For Entire Block
+
+\`\`\`<Language Ext>
+<Block Of Code>
+\`\`\`
+
+For Before And After
+
+\`\`\`diff
+- <Old Code>
++ <New Code>
+\`\`\`
+
+```
+
+Quotes
+
+```
+> Quotes 1
+```
+
+Close An Issue
+
+```
+closes#<Issue Number>
+<Description>
+```
