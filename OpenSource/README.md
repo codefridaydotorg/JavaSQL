@@ -12,6 +12,7 @@ Git is by far the best source control management systems. It has additional save
 
 GitHub: It is built upon Git, providing us many powerful features by letting us use the platform via a Web Interface. We can use resources like issue tracking, project boards like Trello, integrations like GitHub actions.
 
+*Github is not the only platforms where developers can host their Opensource projects they however it is by far the most famous, other platforms includes GitLab, Openforge etc.*
 
 ## Basic Markdown format
 
