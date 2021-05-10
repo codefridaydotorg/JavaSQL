@@ -1,7 +1,11 @@
 # DBMS- Data Base Management System
 
+[Lectures_Link](https://www.youtube.com/watch?v=kBdlM6hNDAE&list=PLxCzCOWd7aiFAN6I8CuViBuCdJgiOkT2Y)
+
+```
 Data Base   =   Data    +   DBMS
 (For Storage)   (Collection Of Related Data)    (Supporting Software)
+```
 
 Data
 1. Structured
@@ -31,6 +35,8 @@ Eg. The Window/Physical functionalites provided by the organizations where a per
 
 2. 3 Tier Architecture: There are several client interfaces interacting with an Application/Buisness Layer.
 
+![3 Level Schema](.\Images\3TierArchitecture.png)
+
 3 Layers are Client Layer, Buisness/Application Layer and Data Layer.
 
 Advantage: Highly Scalable, Higher Security, Simpler for User.
@@ -57,8 +63,14 @@ Used to implement Abstraction.
 
 2. **Logical Level**:   Also called **Conceptual Schema**, to represent the actual representation of Schema, it represents how the Data is actually stored in the physical space, it is represented through the ER-Model. Work of Database Designer.
 
-3. **Physical Level**:  It represents the actual physical location where the Data is stored. It deals with the actual location of Data that is stored on the Hard-Disk. Worked on by the Database Admins.
+3. **Physical Level**:  Also called **Physical Schema**, It represents the actual physical location where the Data is stored. It deals with the actual location of Data that is stored on the Hard-Disk. Worked on by the Database Admins.
+
+![3 Level Schema](.\Images\3LevelSchema.png)
 
 **Data Independence**
 
 *To make the user independent of the user. It is a way to implement data abstraction.*
+
+It takes care of issues like, how data is stored, where data is stored, what index is used, what sort of Data Structure is used.
+
+Eg. A data using a mobile app has no idea about any of the information abut the Data that they are using.
