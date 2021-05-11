@@ -35,7 +35,7 @@ Eg. The Window/Physical functionalites provided by the organizations where a per
 
 2. 3 Tier Architecture: There are several client interfaces interacting with an Application/Buisness Layer.
 
-![3 Level Schema](.\Images\3TierArchitecture.png)
+![3 Level Schema](Images\3TierArchitecture.png)
 
 3 Layers are Client Layer, Buisness/Application Layer and Data Layer.
 
@@ -65,7 +65,7 @@ Used to implement Abstraction.
 
 3. **Physical Level**:  Also called **Physical Schema**, It represents the actual physical location where the Data is stored. It deals with the actual location of Data that is stored on the Hard-Disk. Worked on by the Database Admins.
 
-![3 Level Schema](.\Images\3LevelSchema.png)
+![3 Level Schema](Images\3LevelSchema.png)
 
 **Data Independence**
 

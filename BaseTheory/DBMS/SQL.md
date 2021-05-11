@@ -20,6 +20,7 @@
 
 |Drop|Truncate|Delete|
 |:---:|:---:|:---:|
+|DDL|DDL|DML|
 |Deletes entries and schema|Deletes Entries|Delete Entries one by one|
 |Slow|NA|Fast|
 |Roll Back Possible(Log is created)|NA|No Rollback(No Log is created)|
@@ -52,7 +53,7 @@ Join    =   Cross_Product   +   Condition
 
 **Types**
 
-![Inner_Outer_Join](.\Images\InnerOuterJoin.png)
+![Inner_Outer_Join](Images\InnerOuterJoin.png)
 
 1. Cross: Every combination.
 2. Natural: Equate Common Attributes
@@ -61,3 +62,27 @@ Join    =   Cross_Product   +   Condition
 4. Equi: Equate an attribute that is not common.
 5. Self: Join with the table itself.
 6. Outer: Used to compare and combine.
+
+**Alter Vs Update**
+
+|Alter|Update|
+|:---:||:---:|
+|DDL|DML|
+|Add/Delete Attributes|Update a common change in all rows|
+
+**Constraints**
+
+1. Unique
+2. Not Null
+3. Primary Key  =   Unique  +   Not Null
+4. Foreign Key
+5. Defualt
+6. Check
+
+```
+Eg. CREATE TABLE EMP(
+    .................
+    CITY VARCHAR(25) DEFAULT="DELHI",
+    AGE INT CHECK (AGE>=18)
+);
+```
