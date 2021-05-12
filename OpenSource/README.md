@@ -36,6 +36,9 @@ Normal Text
 ~~ Strike Through ~~
 ```
 
+Align
+<center>Center</center>
+
 List
 
 ```

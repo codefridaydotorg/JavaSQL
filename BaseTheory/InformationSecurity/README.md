@@ -93,4 +93,13 @@ Needs: Control Security Risk, Identity Theft, System Fraud, System Misuse, Theft
 
 3. Transposition Cipher:Rearrange and Not Subsitute.
 
-    1. Columnar Transposition Technique: Push each letter into table
+    1. Columnar Transposition Technique: 
+        1. Push each letter into a table.
+        2. Rearrange columns using keys.
+
+    2. Key Less Transposition Technique:
+        1. Alternate each letter in 2 rows.
+        2. Write 1st row letter before 2nd Row.
+
+*Steganography=>covert/secret writing*
+
