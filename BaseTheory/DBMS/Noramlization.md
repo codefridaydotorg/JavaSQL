@@ -50,7 +50,7 @@ It is an optimized way of storing data in a Databse. It is used to minimize redu
 2. R should not contain any Join Dependency.
 3. Joining should be Loss-Less.
 
-## Important Information
+## Other Important Information
 
 *Closure Method*
 
