@@ -39,7 +39,8 @@ A company who has made their code public can still make money of it. What it mea
 
 1. Copyleft: It states that any changes that someone makes of our work must also be opensource, any improvements someones makes on our work must also be made opensource, if our project is made into a package then the package too must be opensource.
     1. Weak Copyleft: Covers Derivatives and Improvements.
-    2. Strong Copyleft: Covers all three scenarios.f
+    2. Strong Copyleft: Covers all three scenarios.
+    
 2. Permissive: A little loose. The person deriving from your work can copyright their own work or atleast choose a different license atleast according to the guidelines established by the originator. They are useful when the originator wishes to be granted safety or free them from the responsibility from the use of their work.
 
 ###### How to Choose a License for Your Work?
