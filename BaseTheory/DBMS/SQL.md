@@ -53,7 +53,7 @@ Join    =   Cross_Product   +   Condition
 
 **Types**
 
-![Inner_Outer_Join](Images\InnerOuterJoin.png)
+[Inner_Outer_Join](Images\InnerOuterJoin.png)
 
 1. Cross: Every combination.
 2. Natural: Equate Common Attributes

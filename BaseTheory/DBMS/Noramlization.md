@@ -10,11 +10,9 @@ It is an optimized way of storing data in a Databse. It is used to minimize redu
 1. Contains only atomic values.
 2. Only single valued attributes are allowed.
 
-![Before](.\Images\Before1NF.png)
-<center>Before</center>
+[Before](.\Images\Before1NF.png)
 
-![After](.\Images\After1NF.png)
-<center>After</center>
+[After](.\Images\After1NF.png)
 
 **2nd Normal Form**
 
@@ -23,16 +21,19 @@ It is an optimized way of storing data in a Databse. It is used to minimize redu
 
 *An attribute is fully-functional dependent on another attribute if it's fully dependent on that attribute and not it's proper subset.*
 
-![Before](.\Images\Before2NF.png)
-<center>Before</center>
+[Before](.\Images\Before2NF.png)
 
-![After](.\Images\After2NF.png)
-<center>After</center>
+[After](.\Images\After2NF.png)
 
 **3rd Normal Form**
 
 1. 2NF
 2. No Transitive Dependency.
+3. Used to achieve Data Integrity.
+
+[Before](.\Images\Before3NF.png)
+
+[After](.\Images\After3NF.png)
 
 **BCNF**
 
