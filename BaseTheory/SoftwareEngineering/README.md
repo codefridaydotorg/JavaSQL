@@ -67,3 +67,23 @@ Solution: Software Engineering
     1. Once the Program is Up and Running all the Job is Done.
     2. There is no way to assess quality before Program Run.
     3. Working Program is the only Deliverable Product.
+
+**Software**
+
+*A software is a set of Instructions that a Computer Follows.*
+
+*Software Deliverable: A Software along with its Documentation, required to be delivered as a Milestone set forth in the Implementation Plan.*
+
+**Type**
+
+1. System Software: A collection of programs written to service other programs. Eg OS.
+
+2. Application Software: A Program designed for End-User. Eg. Email Apps, SpreadSheets.
+
+3. Engineering & Scientific S/W: A software used to facilitate the Engineering Functions and Tasks. Eg Auto CAD.
+
+4. Embedded Software(Combining or Adding): Resides in Read-Only memory. Used to control products and system for Consumer and Industrial Market. Eg GPS, Calculator.
+
+5. Web Application: A client-server computer program. Client runs in a Web-Browser. Eg Web Mails.
+
+6. Artificial Intelligence: An ML Algo developed to tell a Computer how to respond to something by Example, uses a structure as close as possible to Human Brain. Eg Speech Recognition.
