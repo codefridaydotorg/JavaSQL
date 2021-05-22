@@ -2,7 +2,7 @@
 
 Software Quality is a measure of exactly how much the software came close to doing what the Customer wanted it to.
 
-Measured in the Terms of Satisfaction
+*Measured in the Terms of Satisfaction*
 
 **Quality Factors**
 
@@ -26,3 +26,25 @@ Adoption of SEI-CMM has Significant Buisness Benifits
 **Level 1** Initial Level: The organization is characterized by Adhoc Activities.
 
 **Level 2** Repeatable Level: The organization has basic project Management Practise such as tracking cost and schedules.
+
+**Level 3** Defined Level: The process for both Management and Development activities are Defined and Documented.
+
+**Level 4** Managed Level: The Focus is on Software Metrices.
+
+**Level 5** Optimizing Level: The Process and Product Metrices are collected and are being Optimized.
+
+## ISO 9001
+
+It applies to organizations that are engaged in Design, Development, Production and Servicing of Goods.
+
+This is the standard applicable to most Software Development Organization.
+
+**Features**
+
+1. All the documents concerned with Development of the Software Product should be properly managed, authorized and controlled.
+
+2. Important documents should be Independently checked and reviewed for effectiveness and correctness.
+
+3. The product should be tested against specifications.
+
+4. Several organizational aspects should be addressed Eg. Management Reporting of Quality Team.

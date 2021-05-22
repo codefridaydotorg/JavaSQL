@@ -87,3 +87,15 @@ Solution: Software Engineering
 5. Web Application: A client-server computer program. Client runs in a Web-Browser. Eg Web Mails.
 
 6. Artificial Intelligence: An ML Algo developed to tell a Computer how to respond to something by Example, uses a structure as close as possible to Human Brain. Eg Speech Recognition.
+
+**Software Re-Engineering**
+
+An activity that improves one's understanding of software or prepares or improves the Software itself, usually for increased Mantainability, Re-Usability and Evolution. 
+
+The activities involves examination and alteration of a system to reconstitute it in a new form.
+
+[Re-Engineering](.\Images\Re_Engineering.jpg)
+
+**Software Reverse-Engineering**
+
+It is the process of recovering the Design, Requirements Specification and Functions of a Product from an analysis of its code.
