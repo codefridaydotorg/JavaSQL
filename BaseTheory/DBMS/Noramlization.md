@@ -2,17 +2,19 @@
 
 It is an optimized way of storing data in a Databse. It is used to minimize redundancy from a relation or set of relations.
 
+It is a process for minimizing redundancy from a relation or set of relations. Redundancy can cause Anomalies like Insertion, Deletion and Updation.
+
 1. Row Level Duplicacy: No record should be repeated.
 2. Column Level Duplicacy: Some columns of the Database are the same.
 
 **1st Normal Form**
 
-1. Contains only atomic values.
+1. Contains only atomic values(No Composite or Multi-Valued Attributes).
 2. Only single valued attributes are allowed.
 
-[Before](.\Images\Before1NF.png)
+![Before](.\Images\Before1NF.png)
 
-[After](.\Images\After1NF.png)
+![After](.\Images\After1NF.png)
 
 **2nd Normal Form**
 
