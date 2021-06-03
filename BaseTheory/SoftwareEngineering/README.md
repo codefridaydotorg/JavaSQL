@@ -36,7 +36,7 @@ Solution: Software Engineering
     
 2. Process
     1. What To Do
-    2. Delas with activities, actions and tasks
+    2. Deals with activities, actions and tasks
     3. Answers How To
 
 3. Methods
@@ -94,7 +94,7 @@ An activity that improves one's understanding of software or prepares or improve
 
 The activities involves examination and alteration of a system to reconstitute it in a new form.
 
-[Re-Engineering](.\Images\Re_Engineering.jpg)
+![Re-Engineering](.\Images\Re_Engineering.jpg)
 
 **Software Reverse-Engineering**
 

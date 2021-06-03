@@ -2,7 +2,7 @@
 
 Bitcoin is a fully digital currency which requires no central authorities like Banks or Governments to issue and manage them. It was developed by a mysterious figure named Satoshi Nakamoto.
 
-Bitcoins work on a public ledger system of money. Each time a person makes a transacction they add another line into the ledger recording the exchange. This however poses an issue of trust where there is no way to verify that a person has actually made the transaction or not. To solve this problem the concept of digital signature is used to create a way to verify the transaction, this is acheived through mantaining a public-private key pair.
+Bitcoins work on a public ledger system of money. Each time a person makes a transaction they add another line into the ledger recording the exchange. This however poses an issue of trust where there is no way to verify that a person has actually made the transaction or not. To solve this problem the concept of digital signature is used to create a way to verify the transaction, this is acheived through mantaining a public-private key pair.
 
 ### Functionality
 
@@ -49,9 +49,9 @@ Block Creating is called Mining.
 
 Since a lot of people are involved in the Job of guessing the numbers only the ones who guess/find the required proof of concept first are rewarded for their work.
 
-While anyone else who is simply using Bitcoin for transaction, instead of listening to transactions they just start listening to blocks broadcasted by the miners and updating their personal copies of the Block Chain. Now the issue arises twhen we come across two conflicting copies of our blockchain. Here the protocol demands us to simply acknowledge the longest BlockChain as it is the one with the mostwork put into it while deiscarding the other. Incase the length of both the Block Chains is same, wait until the issue of length is resolved.
+While anyone else who is simply using Bitcoin for transaction, instead of listening to transactions they just start listening to blocks broadcasted by the miners and updating their personal copies of the Block Chain. Now the issue arises when we come across two conflicting copies of our blockchain. Here the protocol demands us to simply acknowledge the longest BlockChain as it is the one with the mostwork put into it while deiscarding the other. Incase the length of both the Block Chains is same, wait until the issue of length is resolved.
 
-Miners can also earn a transaction fee. That is each time a person makes a transaction they can add a transaction fee with them to reward the miner of the block which includes the transaction. This is done to incentivise the miners. This is done because each block can only include only 2400 transactions, this is often looked upon as an un-neccessary restrictions as in comparision can handle several times that number of transactions every second and is certainly a great propblem to bridge before the Bitcoins can be used for complete public use.
+Miners can also earn a transaction fee. That is each time a person makes a transaction they can add a transaction fee with them to reward the miner of the block which includes the transaction. This is done to incentivise the miners. This is done because each block can only include only 2400 transactions, this is often looked upon as an un-neccessary restrictions as in comparision companies like Visa can handle several times that number of transactions every second and is certainly a great propblem to bridge before the Bitcoins can be used for complete public use.
 
 ### How to cheat someone using Block Chain and Why they fail
 

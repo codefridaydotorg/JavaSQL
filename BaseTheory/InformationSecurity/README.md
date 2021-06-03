@@ -67,7 +67,7 @@ Needs: Control Security Risk, Identity Theft, System Fraud, System Misuse, Theft
 
 **Network Security Model**
 
-[Network-Security-Model](Images\NetworkSecurityModel.jpeg)
+![Network-Security-Model](Images\NetworkSecurityModel.jpeg)
 
 
 |Symetric Key Cryptographhy|ASymetric Key Cryptographhy|

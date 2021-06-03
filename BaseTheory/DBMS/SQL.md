@@ -53,7 +53,7 @@ Join    =   Cross_Product   +   Condition
 
 **Types**
 
-[Inner_Outer_Join](Images\InnerOuterJoin.png)
+![Inner_Outer_Join](Images\InnerOuterJoin.png)
 
 1. Cross: Every combination.
 2. Natural: Equate Common Attributes
@@ -68,7 +68,7 @@ Join    =   Cross_Product   +   Condition
 |Alter|Update|
 |:---:||:---:|
 |DDL|DML|
-|Add/Delete Attributes|Update a common change in all rows|
+|Add or Delete Attributes|Update a common change in all rows|
 
 **Constraints**
 
@@ -76,7 +76,7 @@ Join    =   Cross_Product   +   Condition
 2. Not Null
 3. Primary Key  =   Unique  +   Not Null
 4. Foreign Key
-5. Defualt
+5. Default
 6. Check
 
 ```

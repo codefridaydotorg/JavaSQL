@@ -23,9 +23,9 @@ It is a process for minimizing redundancy from a relation or set of relations. R
 
 *An attribute is fully-functional dependent on another attribute if it's fully dependent on that attribute and not it's proper subset.*
 
-[Before](.\Images\Before2NF.png)
+![Before](.\Images\Before2NF.png)
 
-[After](.\Images\After2NF.png)
+![After](.\Images\After2NF.png)
 
 **3rd Normal Form**
 
@@ -33,9 +33,9 @@ It is a process for minimizing redundancy from a relation or set of relations. R
 2. No Transitive Dependency.
 3. Used to achieve Data Integrity.
 
-[Before](.\Images\Before3NF.png)
+![Before](.\Images\Before3NF.png)
 
-[After](.\Images\After3NF.png)
+![After](.\Images\After3NF.png)
 
 **BCNF**
 

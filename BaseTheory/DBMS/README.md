@@ -69,7 +69,7 @@ Used to implement Abstraction.
 
 **Data Independence**
 
-*To make the user independent of the user. It is a way to implement data abstraction.*
+*Data Independence is defined as a property of DBMS that helps you to change the Database schema at one level of a database system without requiring to change the schema at the next higher level.*
 
 It takes care of issues like, how data is stored, where data is stored, what index is used, what sort of Data Structure is used.
 

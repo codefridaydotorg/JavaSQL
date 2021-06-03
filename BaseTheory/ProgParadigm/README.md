@@ -4,7 +4,7 @@ Paradigm can be termed as a way/method to solve some problem.
 
 Programming Paradigm is an approach to solve a problem using some programming language, tool or technique available to us. A lot of programing languages are known but all of them need some strategy when implemented, this strategy is called a Paradigm.
 
-[Programing-Paradigm-Classification](Images/PPClassification.png)
+![Programing-Paradigm-Classification](Images/PPClassification.png)
 
 ## 1. Imperitive Programming Paradigm: 
 
@@ -22,7 +22,7 @@ Programming Paradigm is an approach to solve a problem using some programming la
 
 *The modern computers are built on Von-Neumann Architecture which is based on stored-program concept, that is programs and data are stored in a seperate storage unit called memory and are treated the same thus allowing us to re-program it easily.*
 
-[Von-Neumann-Architecture](Images/VonNeumannArchi.png)
+![Von-Neumann-Architecture](Images/VonNeumannArchi.png)
 
 **1.1 Procedural Programming Paradigm**
 
