@@ -7,3 +7,4 @@ It is the field of study that gives computer the capability to learn without bei
 
 1. Classic: Non Adaptive Machine
 2. Adaptive Machine
+
