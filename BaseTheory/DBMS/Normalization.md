@@ -4,6 +4,8 @@ It is an optimized way of storing data in a Databse. It is used to minimize redu
 
 It is a process for minimizing redundancy from a relation or set of relations. Redundancy can cause Anomalies like Insertion, Deletion and Updation.
 
+Data Redundancy: Repetition of same data.
+
 1. Row Level Duplicacy: No record should be repeated.
 2. Column Level Duplicacy: Some columns of the Database are the same.
 
