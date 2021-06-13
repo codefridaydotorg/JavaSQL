@@ -45,3 +45,17 @@ Computing provides Precise Solutions, Un-Ambiguous, Accurate and Mathematical Mo
 **Membership Functions**
 
 ![Membership-Function](.\Images\MembershipFunction.png)
+
+**Fuzzy Set Operation**
+
+![Fuzzy-Set-Operations](.\Images\FuzzySetOperations.png)
+
+![Fuzzy-Complement](.\Images\FuzzyComplement.png)
+
+![More-Fuzzy-Operations](.\Images\MoreFuzzyOperations.png)
+
+![Advanced-Fuzzy-Operations](.\Images\AdvancedFuzzyOperations.png)
+
+![Fuzzy-Cartesian](.\Images\FuzzyCartesian.png)
+
+![Fuzzy-Set-Properties](.\Images\FuzzySetProperties.png)
