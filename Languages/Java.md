@@ -59,3 +59,4 @@ Java Native API is responsible for interacting with OS. It was initially develop
 4. High Performance
 5. Multi-Threaded
 6. Compilation of S/C and Interpretation of Byte Code
+
