@@ -37,3 +37,11 @@ A framework is a collection of tools bundled into one package that we can use to
 ![Django-MVC](.\Images\django_mvc.jpg)
 
 Django itself takes care of the Controller Part.
+
+**Django Models**
+
+1. Creates the Data Layer of the Django App
+2. Defines Structure of the Database
+3. Allows us to Query the Database
+4. Stored inside the models.py file
+    1. model class is inheritted from django.db.models.Model and it defines the database fireld as class attributes.
