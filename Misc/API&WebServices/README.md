@@ -22,3 +22,11 @@ SOAP does retain the state thus it is advantageous to use SOAP where mulitple ca
 **Caching**
 
 Caching is the storing of data in a cache or a temporary storage area.
+
+**Documenting an API**
+
+Documentation is a highly tedious process but can be automated using swagger-ui.
+
+**SOAP Overview**
+
+An alternative to RESTful API, stands for Simple Object Action Protocol. Carries a lot more overhead with security, ATOMic and other contracts.
