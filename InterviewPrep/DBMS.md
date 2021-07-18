@@ -66,4 +66,7 @@ Types:
 
 8. Explain the Normal Forms in DBMS.
 
-**Ans.** 
+**Ans.** Normalization is the process of minimizing redundancy from a set of relations.
+
+1. First Normal Form:   If a relation contains a composite or multi-valued attribute, it violates the 1st Normal Form.
+2. Second Normal Form:  1st Normal Form + No Partial Dependency.
