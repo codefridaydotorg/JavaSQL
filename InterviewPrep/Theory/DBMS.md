@@ -70,3 +70,34 @@ Types:
 
 1. First Normal Form:   If a relation contains a composite or multi-valued attribute, it violates the 1st Normal Form.
 2. Second Normal Form:  1st Normal Form + No Partial Dependency.
+
+9. What is Normalization and De-Normalization and why do we need them?
+
+**Ans.**
+
+10. What do you mean by Conflict Serializability in DBMS?
+
+**Ans.** As discussed in Concurrency Control, serial schedules have less resource utilization and low throughput. To improve it, two or more transactions are run concurrently. But concurrency of transaction may lead to inconsistency in the Database. To remedy this we first must check if these concurrent schedules are serializable or not.
+
+Conflict Serializability: A schedule is called conflict serializable if it can be transformed into a serial schedule by swapping non-conflicting operations.
+
+Conflicting Operations: Two operations are called conflicting if all the following conditions are satidfied:
+
+1. They belong to Different Transactions.
+2. They operate on the same Data item.
+3. Atleast one of them is a write Operation.
+
+11. What are Concurrency Control Protocol?
+
+**Ans.** Concurrency control is provided in a database to:
+
+1. Enforce isolation among transactions.
+2. Preserve Database consistency.
+3. Resolve Read-Write and Write-Read Conflicts
+
+Various Concurrency Control Techniques are:
+
+1. Two Phase Locking
+2. Time Stamp Ordering
+3. Multi-Version Concurrency Control
+4. Validation Concurrency Control
