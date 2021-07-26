@@ -101,3 +101,51 @@ Various Concurrency Control Techniques are:
 2. Time Stamp Ordering
 3. Multi-Version Concurrency Control
 4. Validation Concurrency Control
+
+12. Can a Primary Key have two Entities?
+
+**Ans.** We can have only one Primary Key but the Primary key can contain multiple Attributes.
+
+13. What are Concurrency Control Protocols?
+
+**Ans.** Concurrency Control is provided in a Database to:
+
+1. Enforce isolation among transactions.
+2. Preserve Database consistency.
+3. Resolve Read-Write conflict.
+
+Various Concurrency control protocols are:
+
+1. **Two-Phase Locking Protocol**: Locking is an operation that secures: permission to read and write a data item. Two-Phase Locking is a process to gain ownership of shared resources without creating the possibility of deadlock.
+
+```
+The 3 Activities are:
+    1. Lock Acquisition
+    2. Modification of Data
+    3. Release Locks
+```
+
+This prevents deadloks because of the phases make sure that never have 2 processes held shared resources.
+
+2. **Time Stamp Ordering Protocol**: A time stamp is a tag that can be attached to any transaction or any data item, which denotes a specific time on which the transaction or the data item has been used in anyway. One way is to directly attach clock value to transaction or data item. The other is to attach value as a Logical Counter.
+
+3. **Multiversion Concurrency Control**: Mutliversion schemes keeps old versions of data items to increase concurrency. Multiversion Two Phase Locking: Each successful write results in the creation of a new version of the data item written. Timestamps are used to label the version. When a read(X) operation is issued, select an appropriate version of X based on the timestamp of the transaction.
+
+14. What are Nested Queries in SQL?
+
+**Ans.** In nested Queries, a query is written inside a query. The result of the inner query is used in the execution of the Outer Query.
+
+There are mainly two types of Nested Queries:
+
+    1. Independent Nested Queries:  In independent nested Queries, query execution starts from innermost query to outermost Queries. The execution of the Inner Query is independent of the Outer Query, but the result of inner query is used in the outer query.
+    
+    2. Co-Related Query:            In co-related Query nested query, the output of inner query depends on the row which is currently executed in outer query.
+
+15. Explain the types of Joins?
+
+**Ans.** A SQL join statement is used to combine data or rows from two or more tables based on a common field between them. Different types of Joins are:
+
+    1. INNER Join:  The INNER Join Keyword selects all rows from both the tables as long as the condition satisfies.
+    2. LEFT Join:   
+    3. RIGHT Join:  
+    4. FULL Join:   
