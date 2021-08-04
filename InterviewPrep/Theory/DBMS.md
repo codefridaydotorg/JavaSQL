@@ -146,6 +146,31 @@ There are mainly two types of Nested Queries:
 **Ans.** A SQL join statement is used to combine data or rows from two or more tables based on a common field between them. Different types of Joins are:
 
     1. INNER Join:  The INNER Join Keyword selects all rows from both the tables as long as the condition satisfies.
-    2. LEFT Join:   
-    3. RIGHT Join:  
-    4. FULL Join:   
+    2. LEFT Join:   Joins all the tables on the left side of the Join and matching the matching rows on the Right Side.
+    3. RIGHT Join:  Joins all the tables on the Right Side of the Join and matching the matching rows on the Left Side.
+    4. FULL Join:   Join will contain all the entry, the ones without any match will contain NULL values.
+
+16. Difference Between INNER and OUTER Join?
+
+**Ans.** An SQL Join is used to combine data from two or more tables, based on a common feild between them.
+
+Inner Join results in the intersection of two tables while Outer Join results in the the Union of two tables. Further Outer Join has 3 types: Left, Right and Full.
+
+17. Explain the 3 Tier Architecture of DBMS.
+
+**Ans.** 3-Tier Architecture divides the complete system into 3 inter-related but independent parts.
+
+    1. Physical Level:      All the information at this level is stored in the form of 0s and 1s.
+    2. Conceptual Level:    Data is represented in the form of Various database tables.
+    3. External Level:      Specifies the views of the Data in terms of Conceptual Level Tables.
+
+18. Explain Data Independence.
+
+**Ans.** It means the changing of Data at one level should not affect another Level. There are 2 types:
+
+    1. Physical Data Independence:  Any change in the physical location of tables and indexes should not affect the conceptual level.
+    2. Conceptual Level:            The data at conceptual level schema and external level schema must be independent.
+
+19. Explain the 2 Tier Architecture.
+
+**Ans.** Similar to the Client-Server model, where the application at the client end directly communicates with the Database at the Server side.
