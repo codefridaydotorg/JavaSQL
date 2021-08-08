@@ -19,6 +19,8 @@
 7. clear()      :   removes all the elements from the collection.
 8. set()        :   Mutates the value at the given index with another value.
 
+![Java-Collections-Interface](..\Images\collection-framework-hierarchy.jpg)
+
 ## Collection Interface
 
 The collection interface is the root of the collection framework hierarchy. Java does not provide the implementation for the Colection interface but it provides them for it's sub-interfaces like **List, Set and Queue**.
