@@ -207,4 +207,25 @@ Out Of Memory Error: It means one is holding onto objects for too long or are tr
 
 28. Difference Between Associative Mapping and Direct Mapping in a cache
 
-**Ans.**
+**Ans.** 
+
+**Direct Mapping :** The simplest technique known as direct mapping, maps each block of the main memory into a single cache line. We assign each memory block to a specificline in the cache. If a line is previously taken up by a memory block then a new memory block has to be loaded, the old memory block is trashed. The address field is built in two parts index field and a tag field. The cache is used to store the tag field whereas the rest is stored inside main memory. Direct mapping's performance is directly proprtional to the Hit ratio.
+
+**Asspciative Mapping :** In this type of mapping, the associative memory is used to store the content and address of the memory word. Any block can go into any line of the cache. This means that the word id bits are used to identify which word in the block is needed, but the tag becomes all of the remaining bits.
+
+29. What is Paging?
+
+**Ans.** Paging is a memory management scheme that eliminates the need for contiguous memory allocation of physical memory. This scheme permits the physical address space of a process to be non-contiguous.
+
+Mapping form virtual to physical address is done by the memory management unit(MMU) which is a hardware device.
+
+30. What is a Page table?
+
+**Ans.** Has page table entries where each page table entry stores a frame number and optional status bit. Many of status bits used in the virtual memory system. The most important is Frame Number.
+
+    1. Frame Number : It gives the frame number in which the current page you are looking for is present.
+    2. Present/Absent Bit: Tells if the Page we are looking for is present or not.
+    3. Protection Bit: Tells about the type of protection one wants on a page.
+    4. Referenced Bit: Tells if the page is referenced in the last clock cycle or not.
+    5. Cache Disabled: 
+    6. Modified Bit:
