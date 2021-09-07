@@ -183,3 +183,47 @@ Reflection hits speed of the program really hard not to mention that it can caus
 |When we create multiple threads, each of our thread creates a unique Object|Only a single Object is created which is shared by all threads|
 
 29. Constructor vs Method
+
+**Ans.** 
+
+|Constructor|Method|
+|:---|:---|
+|Used to initialize the object|Used to expose object behaviour|
+|No return type|Has some sort of return type or void|
+|Invoked implicitly|Invoked explicitly|
+|A default is always present|No default present|
+|Name has to be same as the Class Name|Name different than Class Name|
+|Cannot be final|Can be final|
+
+30. Can Java use Pass by Reference?
+
+**Ans.** No, Java only has Pass by Value, but a copy of the Reference to the Original Parameter is sent to the function making the functionality of Pass by Reference still possible.
+
+31. Which to use String or StringBuffer, incase there is a lot of Updation required?
+
+**Ans.** StringBuffer, String are immutable thus a new String will have to be created even for the most minisclue change.
+
+32. How to not allow serialization of attributes of a class in Java?
+
+**Ans.** Serialization in Java is the mechanism of writing the state of an object in a stream of Bytes. It is mainly used in Hibernate. However if one wishes to keep objects from serializing, one can use the Keyword transient.
+
+```
+public class Example { 
+
+   private transient String someInfo; 
+   private String name;
+   private int id;
+}
+```
+
+33. What happens if there isn't a static modifier infront of the main method in Java?
+
+**Ans.** There will be no compilation error, however during the Runtime, JVM won't be able to Map the main method, thus throwing 'NoSuchMethodError'.
+
+34. What happens if one declares multiple main methods?
+
+**Ans.** There will be a compilation error, compiler will say that the method has already been declared inside the class.
+
+35. What do you mean by Object Cloning in Java?
+
+**Ans.** 
