@@ -350,4 +350,35 @@ public class IBDoubleBraceDemo{
 }
 ```
 
-53. 
+53. Why is it said that the length() method of String class doesn't return accurate results?
+
+**Ans.** 
+
+54. What will be the output of the following?
+
+```
+public class InterviewBit{
+   public static void main(String[] args)
+   {
+       System.out.println('b' + 'i' + 't');
+   }
+}
+```
+
+**Ans.** The Output would have been "bit" if the letters were enclosed by double quotes but since they have used single quotes, we first convert the characters to their ASCII values and then Add the 3 numbers.
+
+```
+‘b’ = 98
+‘i’ = 105
+‘t’ = 116
+
+98 + 105 + 116 = 319
+```
+
+55. What are the possible ways of making object eligible for garbage collection (GC) in Java?
+
+**Ans.** Make the pointers value no longer available.
+
+    1. Set to NULL s1 = null;
+    2. Set to another variable : s1 = s2;
+    3. Island of Isolation : When 2 reference variables pointing to instances of the same class, and these variables refer to only each other and the objects pointed by these 2 variables don't have any other references.

@@ -63,4 +63,30 @@ Devops stands for Development and Operations, brings together the Development an
     2. Increase Deployment Frequency.
     3. Reduce the percentage of Failed Deployments.
 
-11. 
+11. Explain the different phases in DevOps methodology.
+
+**Ans.** DevOps has mainly 6 Phases:
+
+    1. Planning
+    2. Development
+    3. Continuous Integration : Code Validation, Build and Test
+    4. Deployment
+    5. Operations
+    6. Monitoring
+
+12. How is DevOps different from Agile?
+
+**Ans.** DevOps is a way to bring together the Development and Operations team while Agile is simply a Software Development methodology.
+
+13. CD vs CI
+
+**Ans.** 
+
+|Continuous Deployment|Continuous Delivery|
+|:---|:---|
+|Automate the process of deployment to the production environment|Automation of the process to deliver the changes for Deployment|
+|Completely automated|Requires some Human Intervention|
+
+14. What can you say about the Anti-Pattern of DevOps?
+
+**Ans.** 
