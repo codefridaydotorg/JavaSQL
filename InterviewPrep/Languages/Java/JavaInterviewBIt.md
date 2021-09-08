@@ -226,4 +226,128 @@ public class Example {
 
 35. What do you mean by Object Cloning in Java?
 
+**Ans.** In Java Cloning is the process of creating an exact copy of any object. In order to support this the Object must implement Cloneable Interface and override the Object clone() method.
+
+```
+protected Object clone() throws CloneNotSupportedException{
+ return (Object)super.clone();
+}
+```
+
+If one does not implement the Cloneable interface then the program will throw CloneNotSupportedException.
+
+36. How does an Exception propogate through the Program control?
+
+**Ans.** When an exception occurs, it will search for a matching catch block, if one is found it will be executed otherwise it will propogate to the entire Method Call stack all the way to main looking for an appropriate catch block.
+
+37. Is it mandatory for a catch block to be followed after a try block?
+
+**Ans.** No, but the try block must be followed by a finally/catch block.
+
+38. Will the finally block get executed when the return statement is written at the end of try block and catch block?
+
+**Ans.** Yes, a finally block is always executed, the only exception being, Syste,.exit.
+
+39. Can we call a Constructor from another Constructor?
+
+**Ans.** Yes, this is called Constructor Chaining.
+
+40. Contiguous memory locations are usually used for storing actual values in an array but not in ArrayList. Explain.
+
+**Ans.** In case of ArrayLists, storing data in the form of primitive data types is not possible. The data members present inside the ArrayList have references to objects present in various locations inside the memory, thus there is no way we can form a contiguous memory out of them. Array however don't have this issue thus they can be held in the form of Contiguous memory.
+
+41. Although inheritence in Java is popular, it is less advantageous than Composition. Explain.
+
+**Ans.** Composition is better than Inheritence in the following scenarios.
+
+    1. Multiple Inheritence is Not Possible in Java.
+    2. Composition provides High Flexibility and Prevents Breaking of Encapsulation.
+    3. Unit Testing is Possible through Composition.
+    4. Loosely coupled components.
+
+42. How is the String creation through new() different from that of string literal?
+
+**Ans.** A String formed as a literal and assignment operator makes it way to the String pool. The same object in the Heap will be referenced by a different String if the content is same for both of them. The new() however creates a Sting in the Heap and will be different from the ones from the String pool even if they have the same content.
+
+43. Is it possible to increase the memory limit even with the garbage collector?
+
+**Ans.** Yes, Garbage collection only takes care of the Objects which are no longer needed by the program.
+
+44. Why is Synchronization necessary?
+
+**Ans.** Concurrent execution of different processes is made possible by Synchronization. When a resource is shared between many threads, there might be a situation such that multiple threads require the same shared resource. Synchronization helps resolve this.
+
+45. In the given code below, what is the significance of ... ?
+
+```
+public void fooBarMethod(String... variables){
+   // method code
+}
+```
+
+**Ans.** '...' means that one can provide multiple arguments to the method.
+
+46. Explain Java thread cycle.
+
 **Ans.** 
+
+    1. New
+    2. Runnable
+    3. Running
+    4. Non-Runnable(Waiting)
+    5. Terminated
+
+47. What are the TradeOff Between Contiguous and Non-Contiguous Memory?
+
+**Ans.** 
+
+|Atribute|Contiguous|Non - Contiguous|
+|:---|:---|:---|
+|Searching|O(LogN)|O(N)|
+|Insertion|O(N)|O(1)|
+
+48. Is is possible to import the Same Class or Package twice?
+
+**Ans.** One may use the import statement as many times as they want but it will be Redundant as during the Run-Time JVM will load the Class and Packages only once.
+
+49. In case a package has sub packages, will it suffice to import only the main package? e.g. Does importing of com.myMainPackage.* also import com.myMainPackage.mySubPackage.*?
+
+**Ans.** No
+
+50. Will the finally block be executed if the code System.exit(0) is written at the end of try block?
+
+**Ans.** No
+
+51. What do you understand by Marker Interface in Java?
+
+**Ans.** Marker Interfaces, also called tagging interface are those which do not have any methods and constants defined in them, they are simply present to help the compiler and JVM get time related information.
+
+52. Explain double brace initialization?
+
+**Ans.** A convinient way to declare HashSets
+
+```
+import java.util.HashSet;
+import java.util.Set;
+ 
+public class IBDoubleBraceDemo{
+   public static void main(String[] args){
+       Set<String> stringSets = new HashSet<String>()
+       {
+           {
+               add("set1");
+               add("set2");
+               add("set3");
+           }
+       };
+ 
+       doSomething(stringSets);
+   }
+ 
+   private static void doSomething(Set<String> stringSets){
+       System.out.println(stringSets);
+   }
+}
+```
+
+53. 
