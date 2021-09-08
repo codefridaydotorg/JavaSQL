@@ -78,7 +78,7 @@ Devops stands for Development and Operations, brings together the Development an
 
 **Ans.** DevOps is a way to bring together the Development and Operations team while Agile is simply a Software Development methodology.
 
-13. CD vs CI
+13. Continuous Deployment vs Continuous Delivery
 
 **Ans.** 
 
