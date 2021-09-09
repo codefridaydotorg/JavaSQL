@@ -89,4 +89,96 @@ Devops stands for Development and Operations, brings together the Development an
 
 14. What can you say about the Anti-Pattern of DevOps?
 
+**Ans.** A pattern is something that is followed by a large mass of entities, but if a pattern is simply adopted by an organization because of it's popularity without measuring it's usability then it is called an Anti-Pattern.
+
+15. What is MemCached?
+
+**Ans.** It is an open-source in-memory object caching system that has high performance and is distributed and generic nature.
+
+**It can be used in the Following ways**
+
+    1. Profile Caching in Social Media
+    2. Web Page Caching
+    3. Session Caching in E-Commerce
+    4. Database Query Optimization
+
+**Advantages**
+
+    1. Speeds up application
+    2. OpenSource in nature
+
+**Drawbacks**
+
+    1. In case of failure there will be no backup
+    2. Not application specific
+    3. Large Objects cannot be Cached
+
+16. What are the various Branching Strategies in a Version Control System?
+
+**Ans.** Branching is a very important feature which allows easy collaboration between a team.
+
+    1. Feature Branching
+    2. Task Branching
+    3. Release Branching
+
+17. What are the KPIs used to gauge the success of DevOps?
+
+**Ans.** KPIs stand for Key Performance Indicators.
+
+    1. Application Usage, Performance and Traffic.
+    2. Automated Test Case Pass Percentage.
+    3. Application Availability
+    4. Succesful Deployment Frequency Time
+    5. Error Rate
+
+18. What is CBD in DevOps?
+
+**Ans.** CBD stands for Component Based Development, it is a unique way for approaching product development. Here the developers will look for alwaready available components to keep themselves from designing everything from Scratch.
+
+19. What is Resilience Testing?
+
+**Ans.** Testing softwares under un-controlled and chaotic scenarios.
+
+20. Difference between Continuous and Automation Testing.
+
 **Ans.** 
+
+|Continuous Testing|Automation Testing|
+|:---|:---|
+|A part of delivery process where all the Test Cases are executed as a part of an automated system.|Replaces manual testing by helping developers create Test Cases that can run multiple time without manual intervention|
+|Involves the Buisness risk associated with releasing softwares as early as possible|Involves developer's risk to produce a software that performs on all the user requirements.|
+
+21. What is DevOps pipeline?
+
+**Ans.** A set of automated tasks followed by the Engineers to efficiently Develop, Compile, Build and Deploy the software in the production environment.
+
+```
+Version Control -> Build -> Unit Test -> Deploy To Test -> Auto Test -> Deploy To Production -> Validate
+```
+
+22. What is Ansible Work in DevOps?
+
+**Ans.** It is an open-source DevOps automation tool.
+
+23. How does Ansible Works?
+
+**Ans.** 
+
+24. How does AWS contribute to DevOps?
+
+**Ans.** AWS stands for Amazon Web Services, a well known cloud service provider. It enforces DevOps by providing:
+
+    1. Flexible Resources
+    2. Scaling
+    3. Automation
+    4. Security
+
+25. What can be the preparation for DevOps approach?
+
+**Ans.** Can be followed by the following approach:
+
+    1. Plan a Road Map
+    2. Proof of Concept
+    3. Follow DevOps Steps
+
+26. 
