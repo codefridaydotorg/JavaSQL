@@ -174,4 +174,96 @@ Relationships : Links between entities that have something to do with another.
 
 **Ans.**
 
-Truncate : 
+Truncate    : Delete all the Rows.
+DELETE      : Delete specific Rows from a Table.
+DROP        : Used to remove an item from the Database.
+
+31. What is the Difference Between DROP and TRUNCATE?
+
+**Ans.** 
+
+DROP statement deletes the rows along with the Relations, Checks, Constraints, Access Priveledges etc, however the TRUNCATE would only delete the records inside the table.
+
+32. What is the Difference Between DROP and TRUNCATE?
+
+**Ans.** TRUNCATE removes all the Rows inside a table while the DELETE statement removes only specific ROWS.
+
+33. What are aggregate and scalar functions?
+
+**Ans.** 
+Aggregate Functions : performs operations on a collection of values to return a scalar value, they are often used with GROUP BY and HAVING clause.
+
+    1. AVG()
+    2. COUNT()  : Does not count NULL but may or may not count duplicates, will by default count duplicates.
+    To avoid duplicates use select count(DISTINCT col1).
+    3. MIN()
+    4. MAX()
+    5. SUM()
+    6. FIRST()
+    7. LAST()
+
+A scalar function return a single value based on a single input.
+
+    1. LEN()
+    2. UCASE()
+    3. LCASE()
+    4. MID()
+    5. CONCAT()
+    6. RAND()
+    7. NOW()
+    8. FORMAT()
+
+34. What is a User Defined Function?
+
+**Ans.** 
+
+35. What is OLTP?
+
+**Ans.** OLTP stands for Online Transaction Processing : Software capable of supporting transaction oriented programs. It can mantain concurrency. To avoid single point of failure these are often decentralized.
+
+36. What is the difference between OLAP and OLTP?
+
+**Ans.** 
+
+|OLAP|OLTP|
+|:---|:---|
+|Online Analytical Processing|Online Transaction Processing|
+|Consists of Historical data|Consists of Current data|
+|Used for Data Mining, Analytics etc|Used for Buisnesses|
+|Used for Problem solving|Used for day to day fundamental procedures|
+
+37. What is Collation? What are the different types of collation sensitivities?
+
+**Ans.** Set of rules about how data is stored and compared.
+
+    1. Case Sensitivity(a & A)
+    2. Accent Sensitivity(a and á)
+    3. Kana Sensitivity(Japanese Hiragana and Katakana)
+    4. Width Sensitivity
+    
+38. 
+39. 
+
+40. How to create and empty table with the same structure as another table?
+
+**Ans.** SELECT * INTO Student_Copy From Student WHERE 1 = 2;
+
+41. What is Pattern Matching in SQL?
+
+**Ans.** Provides pattern search in data.
+
+    1. % : Matches zero or more characters, SELECT * FROM Student WHERE first_name LIKE 'K%';
+    2. _ : Matches exactly one character, SELECT * FROM Student WHERE first_name LIKE '_K';
+
+42. What is PostgreSQL?
+
+**Ans.** An enterprise level, opensource object relational DBMS.
+
+43. What are indexes?
+
+**Ans.** An index contains keys built from one or more columns in the table or view.
+
+44. What are views?
+
+**Ans.** Views can be defined as virtual tables.
+
