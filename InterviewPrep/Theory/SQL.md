@@ -274,4 +274,5 @@ SELECT DISTINCT w1.FIRST_NAME, w1.Salary FROM Worker w1, Worker w2 WHERE w1.Sala
 SELECT Salary FROM Worker w1 WHERE 1 = (SELECT COUNT(DISTINCT(Salary)) FROM Worker w2 WHERE w1.Salary < w2.Salary);
 ```
 
-37. 
+37. Write an SQL query to show one row twice in results from a table.
+
