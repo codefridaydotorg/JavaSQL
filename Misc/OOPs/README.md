@@ -1,2 +1,0 @@
-# OOPs-Object Oriented Programing
-
