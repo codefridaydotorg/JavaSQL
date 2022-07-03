@@ -1,4 +1,5 @@
 *.md~
 *.un~
 *.swp
-src/com/example/javasql/db/StudentDb.java
+./src/com/example/javasql/db/StudentDb.java
+nbproject

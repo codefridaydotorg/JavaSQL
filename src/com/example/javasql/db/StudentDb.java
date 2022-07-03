@@ -16,7 +16,7 @@ public class StudentDb {
     static String driver = "com.mysql.jdbc.Driver";
     static String url = "jdbc:mysql://localhost/studentinfo";
     static String uname = "temp";
-    static String password = "uhyS:6S\"MX";
+    static String password = "";
     
     public static Connection getConnection() throws Exception{
         if(con == null){
