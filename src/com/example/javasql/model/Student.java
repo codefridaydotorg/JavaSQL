@@ -1,8 +1,18 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
 package com.example.javasql.model;
 
+/**
+ *
+ * @author apoorv
+ */
 public class Student {
     private int id;
     private String fname;
+    private String course;
+    private int fee;
 
     public int getId() {
         return id;
@@ -35,7 +45,6 @@ public class Student {
     public void setFee(int fee) {
         this.fee = fee;
     }
-
-    private String course;
-    private int fee;
+    
+    
 }
