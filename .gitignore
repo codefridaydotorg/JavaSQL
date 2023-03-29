@@ -1,7 +1,0 @@
-*.md~
-*.un~
-*.swp
-./src/com/example/javasql/db/StudentDb.java
-nbproject
-/build/
-/dist/
